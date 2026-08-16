@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: .
+    container_name: devops-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
