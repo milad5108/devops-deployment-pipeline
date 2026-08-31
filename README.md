@@ -53,3 +53,29 @@ Nginx :80
    |
    v
 FastAPI :8000
+
+```
+
+---
+
+## Screenshots
+
+### Health Check
+
+![Health Check](docs/screenshots/health-check.png)
+
+### API Status
+
+![API Status](docs/screenshots/api-status.png)
+
+### Production Docker Compose
+
+![Production Docker Compose](docs/screenshots/docker-compose-prod.png)
+
+### GitHub Actions
+
+![GitHub Actions](docs/screenshots/github-actions.png)
+
+### GitHub Container Registry
+
+![GitHub Container Registry](docs/screenshots/ghcr-package.png)
