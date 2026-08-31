@@ -1,5 +1,13 @@
 # Automated CI/CD Deployment Pipeline
 
+[![CI Pipeline](https://github.com/milad5108/devops-deployment-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/milad5108/devops-deployment-pipeline/actions/workflows/ci.yml)
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+
+![GHCR](https://img.shields.io/badge/GHCR-Enabled-blue)
+
 A production-oriented DevOps project demonstrating automated testing, Docker containerization, reverse proxy configuration, CI automation, and Docker image publishing.
 
 ## Project Overview
