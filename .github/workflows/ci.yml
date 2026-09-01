@@ -39,6 +39,16 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t devops-deployment-pipeline .
+      
+      - name: Scan Docker image for vulnerabilities
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          image-ref: "devops-deployment-pipeline"
+          format: "table"
+          exit-code: "1"
+          ignore-unfixed: true
+          vuln-type: "os,library"
+          severity: "CRITICAL,HIGH"
 
       - name: Log in to GitHub Container Registry
         if: github.event_name == 'push'
